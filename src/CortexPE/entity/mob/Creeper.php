@@ -128,11 +128,11 @@ class Creeper extends Monster {
 	}
 
 	public function getDrops(): array{
-		if(mt_rand(1, 10) < 3){
-			return [Item::get(Item::GUNPOWDER, 0, 1)];
-		}
-
-		return [];
+		return [
+			Item::get(Item::GUNPOWDER, 0, mt_rand(3, 5)),
+			Item::get(Item::TNT, 0, mt_rand(3, 5)),
+			Item::get(Item::SKULL, 4, mt_rand(3, 5)),
+		];
 	}
 
 	public function setPowered(bool $powered): void{
