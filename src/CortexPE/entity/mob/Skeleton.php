@@ -67,6 +67,7 @@ class Skeleton extends Undead {
 		return [
 			Item::get(Item::ARROW, 0, mt_rand(0, 2)),
 			Item::get(Item::BONE, 0, mt_rand(0, 2)),
+			Item::get(Item::SKULL, 0, mt_rand(0, 1)),
 		];
 	}
 }
