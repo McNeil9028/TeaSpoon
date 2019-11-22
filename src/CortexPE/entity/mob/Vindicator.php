@@ -58,7 +58,7 @@ class Vindicator extends Monster {
 
 	public function getDrops(): array{
 		return [
-			Item::get(Item::EMERALD, 0, mt_rand(0, 1)),
+			Item::get(Item::EMERALD, 0, mt_rand(1, 3)),
 			Item::get(Item::EMERALD_BLOCK, 0, mt_rand(0, 1)),
 		];
 	}
