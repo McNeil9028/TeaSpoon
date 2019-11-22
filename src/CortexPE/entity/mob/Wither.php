@@ -57,6 +57,7 @@ class Wither extends Animal {
 	public function getDrops(): array{
 		return [
 			Item::get(Item::NETHER_STAR, 0, 1),
+			Item::get(Item::BEACON, 0, mt_rand(0, 1)),
 		];
 	}
 }
