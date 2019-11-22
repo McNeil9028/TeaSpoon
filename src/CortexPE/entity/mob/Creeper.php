@@ -130,8 +130,8 @@ class Creeper extends Monster {
 	public function getDrops(): array{
 		return [
 			Item::get(Item::GUNPOWDER, 0, mt_rand(3, 5)),
-			Item::get(Item::TNT, 0, mt_rand(3, 5)),
-			Item::get(Item::SKULL, 4, mt_rand(3, 5)),
+			Item::get(Item::TNT, 0, mt_rand(0, 3)),
+			Item::get(Item::SKULL, 4, mt_rand(0, 1)),
 		];
 	}
 
