@@ -151,10 +151,10 @@ class EntityManager extends Entity {
 
 		// Other Entities ////
 		self::registerEntity(AreaEffectCloud::class, true, ['AreaEffectCloud', 'minecraft:areaeffectcloud']);
-		self::registerEntity(Lightning::class, true, ['Lightning', 'minecraft:lightning']);
+//		self::registerEntity(Lightning::class, true, ['Lightning', 'minecraft:lightning']);
 		self::registerEntity(EndCrystal::class, true, ['EnderCrystal', 'minecraft:ender_crystal']);
-		self::registerEntity(Boat::class, true, ['Boat', 'minecraft:boat']);
-		self::registerEntity(ArmorStand::class, true, ['ArmorStand', 'minecraft:armor_stand']);
+//		self::registerEntity(Boat::class, true, ['Boat', 'minecraft:boat']);
+//		self::registerEntity(ArmorStand::class, true, ['ArmorStand', 'minecraft:armor_stand']);
 //		if(strtolower(Main::$cars) === "true"){
 //			Main::getPluginLogger()->debug("Using Minecart Vanilla");
 //			self::registerEntity(Minecart::class, true, ['Minecart', 'minecraft:minecart']);
