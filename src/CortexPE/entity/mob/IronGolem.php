@@ -46,7 +46,7 @@ class IronGolem extends Animal {
 	public $height = 2.7;
 
 	public function initEntity(): void{
-		$this->setMaxHealth(100);
+		$this->setMaxHealth(1);
 		parent::initEntity();
 	}
 
@@ -57,7 +57,9 @@ class IronGolem extends Animal {
 	public function getDrops(): array{
 		return [
 			Item::get(Item::IRON_INGOT, 0, mt_rand(3, 5)),
+			Item::get(Item::IRON_BLOCK, 0, mt_rand(0, 1)),
 			Item::get(Item::POPPY, 0, mt_rand(0, 2)),
+			Item::get(Item::IRON_NUGGET, 0, mt_rand(5, 9)),
 		];
 	}
 }
