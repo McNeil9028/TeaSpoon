@@ -42,18 +42,18 @@ use pocketmine\item\{
 
 class ItemManager {
 	public static function init(){
-		ItemFactory::registerItem(new Boat(), true);
+		//ItemFactory::registerItem(new Boat(), true);
 		ItemFactory::registerItem(new LingeringPotion(), true);
 		ItemFactory::registerItem(new FireCharge(), true);
 		ItemFactory::registerItem(new Elytra(), true);
-		ItemFactory::registerItem(new Fireworks(), true);
-		ItemFactory::registerItem(new FishingRod(), true);
+		//ItemFactory::registerItem(new Fireworks(), true);
+		//ItemFactory::registerItem(new FishingRod(), true);
 		ItemFactory::registerItem(new EyeOfEnder(), true);
 		ItemFactory::registerItem(new SpawnEgg(), true);
 		ItemFactory::registerItem(new Bow(), true);
 		ItemFactory::registerItem(new EndCrystal(), true);
 		ItemFactory::registerItem(new Bucket(), true);
-		ItemFactory::registerItem(new ArmorStand(), true);
+		//ItemFactory::registerItem(new ArmorStand(), true);
 		if(Main::$cars){
 			ItemFactory::registerItem(new Minecart(), true);
 		}
