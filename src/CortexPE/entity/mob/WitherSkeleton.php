@@ -57,6 +57,7 @@ class WitherSkeleton extends Skeleton {
 		return [
 			Item::get(Item::COAL, 0, mt_rand(0, 1)),
 			Item::get(Item::BONE, 0, mt_rand(0, 2)),
+			Item::get(Item::SKULL, 1, mt_rand(0, 1)),
 		];
 	}
 }
