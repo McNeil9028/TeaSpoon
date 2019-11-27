@@ -103,6 +103,7 @@ class Rabbit extends Animal {
 			Item::get(Item::RABBIT_FOOT, 0, mt_rand(0, 1)),
 			Item::get(Item::RABBIT_HIDE, 0, mt_rand(0, 1)),
 			Item::get(Item::RABBIT_STEW, 0, mt_rand(0, 1)),
+			Item::get(Item::EXPERIENCE_BOTTLE, 0, mt_rand(0, 1)),
 		];
 	}
 }
