@@ -60,6 +60,7 @@ class IronGolem extends Animal {
 			Item::get(Item::IRON_BLOCK, 0, mt_rand(0, 1)),
 			Item::get(Item::POPPY, 0, mt_rand(0, 2)),
 			Item::get(Item::IRON_NUGGET, 0, mt_rand(5, 9)),
+			Item::get(Item::EXPERIENCE_BOTTLE, 0, mt_rand(0, 1)),
 		];
 	}
 }
