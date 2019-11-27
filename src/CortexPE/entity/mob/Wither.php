@@ -58,6 +58,7 @@ class Wither extends Animal {
 		return [
 			Item::get(Item::NETHER_STAR, 0, 1),
 			Item::get(Item::BEACON, 0, mt_rand(0, 1)),
+			Item::get(Item::EXPERIENCE_BOTTLE, 0, mt_rand(0, 1)),
 		];
 	}
 }
