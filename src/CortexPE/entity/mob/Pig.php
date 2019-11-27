@@ -52,6 +52,7 @@ class Pig extends Animal {
 	public function getDrops(): array{
 		return [
 			Item::get(Item::RAW_PORKCHOP, 0, mt_rand(1, 3)),
+			Item::get(Item::EXPERIENCE_BOTTLE, 0, mt_rand(0, 1)),
 		];
 	}
 }
