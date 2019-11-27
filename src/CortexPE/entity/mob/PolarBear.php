@@ -58,6 +58,7 @@ class PolarBear extends Monster {
 		return [
 			Item::get(Item::RAW_SALMON, 0, mt_rand(0, 2)),
 			Item::get(Item::RAW_FISH, 0, mt_rand(0, 2)),
+			Item::get(Item::EXPERIENCE_BOTTLE, 0, mt_rand(0, 1)),
 		];
 	}
 }
