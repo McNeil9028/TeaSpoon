@@ -65,9 +65,10 @@ class Skeleton extends Undead {
 
 	public function getDrops(): array{
 		return [
-			Item::get(Item::ARROW, 0, mt_rand(0, 2)),
-			Item::get(Item::BONE, 0, mt_rand(0, 2)),
+			Item::get(Item::ARROW, 0, mt_rand(1, 4)),
+			Item::get(Item::BONE, 0, mt_rand(0, 4)),
 			Item::get(Item::SKULL, 0, mt_rand(0, 1)),
+			Item::get(Item::EXPERIENCE_BOTTLE, 0, mt_rand(0, 1)),
 		];
 	}
 }
