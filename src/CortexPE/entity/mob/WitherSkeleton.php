@@ -55,9 +55,10 @@ class WitherSkeleton extends Skeleton {
 
 	public function getDrops(): array{
 		return [
-			Item::get(Item::COAL, 0, mt_rand(0, 1)),
+			Item::get(Item::COAL, 0, mt_rand(0, 4)),
 			Item::get(Item::BONE, 0, mt_rand(0, 2)),
 			Item::get(Item::SKULL, 1, mt_rand(0, 1)),
+			Item::get(Item::EXPERIENCE_BOTTLE, 0, mt_rand(0, 1)),
 		];
 	}
 }
